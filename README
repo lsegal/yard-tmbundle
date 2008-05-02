@@ -13,5 +13,7 @@ Snippets:
   @dep - @deprecated
 
 TODO
-  a tmLanguage
-  a template snippet that provides a default doc for a method
+  A tmLanguage
+  A template snippet that provides a default doc for a method
+  A tmCommand for regenerating the documentation and opening it in the browser
+  
