@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>@raise ${1:class} ${3:Description}
-@rai$0</string>
+# @rai$0</string>
 	<key>name</key>
 	<string>raise</string>
 	<key>scope</key>
