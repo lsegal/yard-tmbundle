@@ -1,20 +1,21 @@
 TextMate Bundle for writing YARD style documentation for ruby scripts
 
-=== Snippets:
-<code>
-  @par - @params
-  @si  - @since
-  @ver - @version
-  @au  - @author
-  @see - @see
-  @rai - @rai
-  @ypar - @yieldparam
-  @y   - @yield
-  @ret - @return
-  @dep - @deprecated
-</code>
+h4. Snippets:
 
-==== TODO
+  * @par - @params
+  * @si  - @since
+  * @ver - @version
+  * @au  - @author
+  * @see - @see
+  * @rai - @rai
+  * @ypar - @yieldparam
+  * @y   - @yield
+  * @ret - @return
+  * @dep - @deprecated
+
+
+h4. TODO
+
   * A tmLanguage
   * A template snippet that provides a default doc for a method
   * A tmCommand for regenerating the documentation and opening it in the browser
