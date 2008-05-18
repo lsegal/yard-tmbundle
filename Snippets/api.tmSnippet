@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@param ${1:Name}&lt;${2:Type}&gt; ${4:Description}
-# @par$0
-
-</string>
+	<string>@api ${1:[public, semi-public, private]}</string>
 	<key>name</key>
-	<string>param</string>
+	<string>api</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@par</string>
+	<string>@api</string>
 	<key>uuid</key>
-	<string>BA8B95D4-FB68-4988-840A-D3A23B21C6AD</string>
+	<string>2C841751-10DF-4B94-B83A-7F1C15280FCF</string>
 </dict>
 </plist>
