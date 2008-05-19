@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@deprecated ${1:description}</string>
+	<key>name</key>
+	<string>Deprecated</string>
+	<key>scope</key>
+	<string>source.ruby comment.line.number-sign</string>
+	<key>tabTrigger</key>
+	<string>dep</string>
+	<key>uuid</key>
+	<string>44B30FC1-E175-4B89-870E-D5CAAFEFE856</string>
+</dict>
+</plist>
