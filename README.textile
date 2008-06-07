@@ -1,19 +1,20 @@
+h4. Project Description
+
 TextMate Bundle for writing YARD style documentation for ruby scripts
 
 h4. Snippets:
 
-  * ##   - doc template
-  * @par - @params
-  * @si  - @since
-  * @ver - @version
-  * @au  - @author
-  * @see - @see
-  * @rai - @rai
-  * @ypar - @yieldparam
-  * @y   - @yield
-  * @ret - @return
-  * @dep - @deprecated
-
+  * ##      - Starts documentation
+  * param   - @param
+  * since   - @since
+  * version - @version
+  * author  - @author
+  * see     - @see
+  * raise   - @raise
+  * yparam  - @yieldparam
+  * yield   - @yield
+  * return  - @return
+  * depr    - @deprecated
 
 h4. TODO
 
