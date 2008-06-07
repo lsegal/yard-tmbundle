@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@deprecated ${1:Description}</string>
+	<string>
+</string>
+	<key>keyEquivalent</key>
+	<string>$</string>
 	<key>name</key>
-	<string>Deprecated</string>
+	<string>Exit Comments</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
-	<key>tabTrigger</key>
-	<string>depr</string>
 	<key>uuid</key>
-	<string>937DEC6A-55F0-496A-98F4-28F1F18ED356</string>
+	<string>4AF61B71-12D3-4F78-9983-3C9AD2D6582D</string>
 </dict>
 </plist>

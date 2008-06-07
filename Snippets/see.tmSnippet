@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@see ${1:Name}
-# @see$0</string>
+	<string>@see ${1:Name or URL}</string>
 	<key>name</key>
-	<string>see</string>
+	<string>See Also</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@see</string>
+	<string>see</string>
 	<key>uuid</key>
 	<string>E824781F-6806-462D-9051-4A1D3E2A1925</string>
 </dict>

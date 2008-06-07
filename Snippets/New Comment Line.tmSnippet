@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>##
-# $1
-#
-# @par$0</string>
+	<string>
+# </string>
+	<key>keyEquivalent</key>
+	<string></string>
 	<key>name</key>
-	<string>doc-template</string>
+	<string>New Comment Line</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>##</string>
+	<string>source.ruby</string>
 	<key>uuid</key>
-	<string>E639E202-8252-4C2C-B88A-9627B89A6486</string>
+	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
 </dict>
 </plist>

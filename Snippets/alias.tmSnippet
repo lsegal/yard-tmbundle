@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>@alias $0</string>
 	<key>name</key>
-	<string>alias</string>
+	<string>Alias Of</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@al</string>
+	<string>alias</string>
 	<key>uuid</key>
 	<string>A537FD23-3EFA-48CF-AE22-714C1A134940</string>
 </dict>

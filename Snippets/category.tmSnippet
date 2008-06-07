@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@category $0</string>
+	<string>@category ${0:categories}</string>
 	<key>name</key>
-	<string>category</string>
+	<string>Categories</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@cat</string>
+	<string>cat</string>
 	<key>uuid</key>
 	<string>CB762D11-43B1-446A-8548-7A39581A9A89</string>
 </dict>

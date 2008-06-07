@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@return ${1:&lt;${2:Type}&gt;} ${3:Description}</string>
+	<string>@return [${1:Types}] ${2:Description}</string>
 	<key>name</key>
-	<string>return</string>
+	<string>Returns</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@ret</string>
+	<string>return</string>
 	<key>uuid</key>
 	<string>17011F12-BDDB-4FFB-8CDC-CCB5522F1A7C</string>
 </dict>

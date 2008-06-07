@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>@demo ${1:spec/$0}</string>
 	<key>name</key>
-	<string>demo</string>
+	<string>Demo</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>@dm</string>
+	<string>demo</string>
 	<key>uuid</key>
 	<string>0D37D210-5B4F-4BFD-AA92-C80CCDD5959D</string>
 </dict>
