@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>
+</string>
+	<key>keyEquivalent</key>
+	<string>$</string>
+	<key>name</key>
+	<string>Exit Comments</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>uuid</key>
+	<string>4AF61B71-12D3-4F78-9983-3C9AD2D6582D</string>
+</dict>
+</plist>
