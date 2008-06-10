@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@calls </string>
+	<string>@abstract </string>
 	<key>name</key>
-	<string>Calls Method</string>
+	<string>Abstract</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
 	<key>tabTrigger</key>
-	<string>calls</string>
+	<string>abs</string>
 	<key>uuid</key>
-	<string>E05CA577-3978-4591-9AE9-B723ACA4EC47</string>
+	<string>8AD5C547-4237-467E-9133-4A9E950B096B</string>
 </dict>
 </plist>

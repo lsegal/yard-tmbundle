@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@api ${1:[public, semi-public, private]}</string>
+	<string>@api ${1:[public, package, private]}</string>
 	<key>name</key>
 	<string>API</string>
 	<key>scope</key>

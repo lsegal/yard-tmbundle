@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>@alias $0</string>
+	<string>@alias </string>
 	<key>name</key>
 	<string>Alias Of</string>
 	<key>scope</key>

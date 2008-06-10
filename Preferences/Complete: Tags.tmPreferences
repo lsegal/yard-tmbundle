@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Complete: Tags</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>settings</key>
+	<dict>
+		<key>completionCommand</key>
+		<string>#!/usr/bin/env ruby
+                          require "yard"
+                          puts YARD::Tags::Library.labels.keys.map {|x| x.to_s }.join(" ")</string>
+		<key>disableDefaultCompletion</key>
+		<integer>1</integer>
+	</dict>
+	<key>uuid</key>
+	<string>4DA00FEA-56BB-4C69-91B7-29DF70184035</string>
+</dict>
+</plist>

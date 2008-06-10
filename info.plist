@@ -17,6 +17,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>8AD5C547-4237-467E-9133-4A9E950B096B</string>
 					<string>A537FD23-3EFA-48CF-AE22-714C1A134940</string>
 					<string>2C841751-10DF-4B94-B83A-7F1C15280FCF</string>
 					<string>3741FD89-32A7-4F23-8639-4043B17B3412</string>
@@ -42,6 +43,7 @@
 	<string>YARD</string>
 	<key>ordering</key>
 	<array>
+		<string>8AD5C547-4237-467E-9133-4A9E950B096B</string>
 		<string>A537FD23-3EFA-48CF-AE22-714C1A134940</string>
 		<string>2C841751-10DF-4B94-B83A-7F1C15280FCF</string>
 		<string>3741FD89-32A7-4F23-8639-4043B17B3412</string>
