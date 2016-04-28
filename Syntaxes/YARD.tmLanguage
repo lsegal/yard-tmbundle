@@ -12,18 +12,18 @@
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>(?&lt;=#\s)(@)([a-z][\w\-]+)\b</string>
+			<string>(?&lt;=#\s)(@)(?!return|param)([a-z][\w\-]+[a-z])\b(?!\.|\s*(?:\|\|)?=\s*)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.yard</string>
+					<string>punctuation.definition.keyword.other.documentation.tag.yard</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.meta.yard</string>
+					<string>keyword.other.documentation.tag.yard</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -44,7 +44,7 @@
 						</dict>
 					</dict>
 					<key>end</key>
-					<string>(\])(?=\s|\n)</string>
+					<string>(\])(?:\s+([a-z]\w*))?(?=\s|\n)</string>
 					<key>endCaptures</key>
 					<dict>
 						<key>1</key>
@@ -52,11 +52,22 @@
 							<key>name</key>
 							<string>punctuation.definition.parameters.end.yard</string>
 						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>entity.other.attribute-name.yard</string>
+						</dict>
 					</dict>
 					<key>name</key>
 					<string>meta.array.parameters.yard</string>
 					<key>patterns</key>
 					<array>
+						<dict>
+							<key>match</key>
+							<string>\b[A-Z]\w+(?:::[A-Z]\w+)*\b</string>
+							<key>name</key>
+							<string>keyword.other.directive.class.yard</string>
+						</dict>
 						<dict>
 							<key>captures</key>
 							<dict>
@@ -68,7 +79,7 @@
 								<key>2</key>
 								<dict>
 									<key>name</key>
-									<string>entity.name.type.class.yard</string>
+									<string>keyword.other.directive.class.yard</string>
 								</dict>
 								<key>3</key>
 								<dict>
@@ -77,9 +88,9 @@
 								</dict>
 							</dict>
 							<key>match</key>
-							<string>\b(?:[A-Z]\w+(?:::[A-Z]\w+)*)(?:(\&lt;)([A-Z]\w+(?:::[A-Z]\w+)*)(\&gt;))?\b</string>
+							<string>\bArray(?:(\&lt;)([A-Z]\w+(?:::[A-Z]\w+)*)(\&gt;))?\b</string>
 							<key>name</key>
-							<string>entity.name.type.class.yard</string>
+							<string>keyword.other.directive.array.yard</string>
 						</dict>
 						<dict>
 							<key>match</key>
@@ -97,7 +108,207 @@
 				</dict>
 			</array>
 		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=#\s)(@)(return)\b(?!\.|\s*=\s*)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.keyword.other.documentation.tag.yard</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.documentation.tag.yard</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?=\n|$)</string>
+			<key>name</key>
+			<string>meta.tag.yard.return</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>(?&lt;=@return\s)(\[)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.parameters.begin.yard</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(\])(?=\s|\n|$)</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.parameters.end.yard</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.array.parameters.yard</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\b[A-Z]\w+(?:::[A-Z]\w+)*\b</string>
+							<key>name</key>
+							<string>keyword.other.directive.class.yard</string>
+						</dict>
+						<dict>
+							<key>captures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.array.begin.yard</string>
+								</dict>
+								<key>2</key>
+								<dict>
+									<key>name</key>
+									<string>keyword.other.directive.class.yard</string>
+								</dict>
+								<key>3</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.array.end.yard</string>
+								</dict>
+							</dict>
+							<key>match</key>
+							<string>\bArray(?:(\&lt;)([A-Z]\w+(?:::[A-Z]\w+)*)(\&gt;))?\b</string>
+							<key>name</key>
+							<string>keyword.other.directive.array.yard</string>
+						</dict>
+						<dict>
+							<key>match</key>
+							<string>,\s*</string>
+							<key>name</key>
+							<string>punctuation.separator.parameters.yard</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(?&lt;=#\s)(@)(param)\b(?!\.|\s*=\s*)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.keyword.other.documentation.tag.yard</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.documentation.tag.yard</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(?=\n|$)</string>
+			<key>name</key>
+			<string>meta.tag.yard.param</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>(?&lt;=@param\s)(?:\s*([a-z]\w*)\s)?\s*(\[)</string>
+					<key>beginCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>entity.other.attribute-name.yard</string>
+						</dict>
+						<key>2</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.parameters.begin.yard</string>
+						</dict>
+					</dict>
+					<key>end</key>
+					<string>(\])(?=\s|\n|$)</string>
+					<key>endCaptures</key>
+					<dict>
+						<key>1</key>
+						<dict>
+							<key>name</key>
+							<string>punctuation.definition.parameters.end.yard</string>
+						</dict>
+					</dict>
+					<key>name</key>
+					<string>meta.array.parameters.yard</string>
+					<key>patterns</key>
+					<array>
+						<dict>
+							<key>match</key>
+							<string>\b[A-Z]\w+(?:::[A-Z]\w+)*\b</string>
+							<key>name</key>
+							<string>keyword.other.directive.class.yard</string>
+						</dict>
+						<dict>
+							<key>captures</key>
+							<dict>
+								<key>1</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.array.begin.yard</string>
+								</dict>
+								<key>2</key>
+								<dict>
+									<key>name</key>
+									<string>keyword.other.directive.class.yard</string>
+								</dict>
+								<key>3</key>
+								<dict>
+									<key>name</key>
+									<string>punctuation.definition.array.end.yard</string>
+								</dict>
+							</dict>
+							<key>match</key>
+							<string>\bArray(?:(\&lt;)([A-Z]\w+(?:::[A-Z]\w+)*)(\&gt;))?\b</string>
+							<key>name</key>
+							<string>keyword.other.directive.array.yard</string>
+						</dict>
+						<dict>
+							<key>match</key>
+							<string>,\s*</string>
+							<key>name</key>
+							<string>punctuation.separator.parameters.yard</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.keyword.other.documentation.tag.yard</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.other.documentation.deprecated.yard</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?&lt;=#\s)(@)(!deprecated)(?=\n|$)</string>
+			<key>name</key>
+			<string>meta.tag.yard.deprecated</string>
+		</dict>
 	</array>
+	<key>scope</key>
+	<string>source.ruby</string>
 	<key>scopeName</key>
 	<string>text.yard</string>
 	<key>uuid</key>

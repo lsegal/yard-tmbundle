@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Deprecated</string>
+	<key>scope</key>
+	<string>meta.tag.yard.deprecated keyword.other.documentation.deprecated.yard</string>
+	<key>settings</key>
+	<dict>
+		<key>background</key>
+		<string>#FFDDDD</string>
+		<key>fontStyle</key>
+		<string>bold</string>
+		<key>foreground</key>
+		<string>#606060</string>
+	</dict>
+	<key>uuid</key>
+	<string>2E14DFBA-00D5-46DE-A622-389B47B4D9EB</string>
+</dict>
+</plist>
