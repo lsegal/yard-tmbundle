@@ -2,16 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>Keyword Tag</string>
 	<key>scope</key>
-	<string>comment.line.number-sign.ruby</string>
+	<string>meta.tag.yard keyword.other</string>
+	<key>settings</key>
+	<dict>
+		<key>foreground</key>
+		<string>#606060</string>
+	</dict>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>4F9D0E17-444C-4218-90E0-46B7EF99D2E1</string>
 </dict>
 </plist>
