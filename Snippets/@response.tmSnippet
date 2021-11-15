@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># @response${1: [${2:Model}]}${3: ${4|200,201,301,302,401,404,422|}}${5:
+# ${6|@ro,@p,@para,@resp,@exa|}}$0</string>
+	<key>name</key>
+	<string>@response</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string># @resp</string>
+	<key>uuid</key>
+	<string>9161CF72-009D-4C8C-9AFC-D1E3E4F3BBE6</string>
+</dict>
+</plist>

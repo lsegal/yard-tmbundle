@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Keyword Tag</string>
+	<string>Swagger kw</string>
 	<key>scope</key>
-	<string>meta.tag.yard keyword.other, meta.tag.yard keyword.swagger</string>
+	<string>meta.tag.yard.swagger</string>
 	<key>settings</key>
 	<dict>
-		<key>foreground</key>
-		<string>#606060</string>
+		<key>background</key>
+		<string>#ECECFF</string>
 	</dict>
 	<key>uuid</key>
-	<string>4F9D0E17-444C-4218-90E0-46B7EF99D2E1</string>
+	<string>5759089C-E7AB-431C-BC7E-CC150E9A8FE5</string>
 </dict>
 </plist>

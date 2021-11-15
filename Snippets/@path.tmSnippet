@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># @path [${1|GET,POST,PATCH,PUT,DELETE|}] ${3:/api}${4:/v${5:1}}/${6:path}${7:
+# ${8|@ro,@p,@para,@resp,@exa|}}$0</string>
+	<key>name</key>
+	<string>@path</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string># @p</string>
+	<key>uuid</key>
+	<string>769051AC-23B4-4B7B-AD41-179F307DFF77</string>
+</dict>
+</plist>

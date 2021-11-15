@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># @route ${1:helper_method}${2:
+# ${3|@ro,@p,@para,@resp,@exa|}}$0</string>
+	<key>name</key>
+	<string>@route</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string># @ro</string>
+	<key>uuid</key>
+	<string>711D911E-80B7-46C6-8DB2-555D7C6FC3DC</string>
+</dict>
+</plist>

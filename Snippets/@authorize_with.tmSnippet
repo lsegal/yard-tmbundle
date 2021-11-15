@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>@authorize_with ${1:header_authorization}
+# $0</string>
+	<key>name</key>
+	<string>@authorize_with</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>@auth</string>
+	<key>uuid</key>
+	<string>9A1C7BF4-CFE3-4DEC-8252-E7537BA79779</string>
+</dict>
+</plist>
