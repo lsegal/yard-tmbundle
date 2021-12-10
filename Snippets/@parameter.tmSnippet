@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># @parameter ${1:name}${2:(${3|body,query,path,formData,required,nullable,multiple|})} [${4|integer,boolean,string,object&lt;&gt;,number,date,time,date-time,uuid,enum&lt;&gt;,array&lt;&gt;|}] ${5:description}${6:
+# ${7|@ro,@p,@para,@resp,@exa|}}$0</string>
+	<key>name</key>
+	<string>@parameter</string>
+	<key>scope</key>
+	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string># @para</string>
+	<key>uuid</key>
+	<string>8248FC4F-D711-4576-8512-8BE9BD0E1896</string>
+</dict>
+</plist>

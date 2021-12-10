@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>@return [${1:Types}] ${2:Description}</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>Returns</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>return</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>17011F12-BDDB-4FFB-8CDC-CCB5522F1A7C</string>
 </dict>
 </plist>

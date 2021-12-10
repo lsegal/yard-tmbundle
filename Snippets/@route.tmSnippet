@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string># @route ${1:helper_method}${2:
+# ${3|@ro,@p,@para,@resp,@exa|}}$0</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>@route</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string># @ro</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>711D911E-80B7-46C6-8DB2-555D7C6FC3DC</string>
 </dict>
 </plist>

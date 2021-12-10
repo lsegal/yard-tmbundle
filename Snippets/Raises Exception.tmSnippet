@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>@raise [${1:ExceptionClass}] ${3:Description}</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>Raises Exception</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>raise</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>444C3FB9-D597-4023-B50A-5ECCDAB75B7C</string>
 </dict>
 </plist>

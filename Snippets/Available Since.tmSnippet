@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>@since ${1:number}</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>Available Since</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>since</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>312627F9-3C3D-4924-8D9A-64784B5E3842</string>
 </dict>
 </plist>

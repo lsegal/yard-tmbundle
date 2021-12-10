@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>@see ${1:Name or URL}</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>See Also</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>see</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>E824781F-6806-462D-9051-4A1D3E2A1925</string>
 </dict>
 </plist>

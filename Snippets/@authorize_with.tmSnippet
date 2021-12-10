@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>
-# </string>
-	<key>keyEquivalent</key>
-	<string></string>
+	<string>@authorize_with ${1:header_authorization}
+# $0</string>
 	<key>name</key>
-	<string>New Comment Line</string>
+	<string>@authorize_with</string>
 	<key>scope</key>
 	<string>comment.line.number-sign.ruby</string>
+	<key>tabTrigger</key>
+	<string>@auth</string>
 	<key>uuid</key>
-	<string>B8AD763C-830B-4A5B-AD40-5E7B90C83F0A</string>
+	<string>9A1C7BF4-CFE3-4DEC-8252-E7537BA79779</string>
 </dict>
 </plist>

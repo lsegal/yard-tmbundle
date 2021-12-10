@@ -1,0 +1,71 @@
+{	patterns = (
+		{	name = 'meta.tag.yard';
+			begin = '(?<=#\s)(@)([_a-zA-Z][_a-zA-Z0-9\-]*)\b(?!\.|\s*=\s*)';
+			end = '(?=\n|$)';
+			beginCaptures = {
+				1 = { name = 'punctuation.definition.keyword.other.documentation.tag.yard'; };
+				2 = { name = 'keyword.other.documentation.tag.yard'; };
+			};
+			patterns = (
+        { include = "#name"; },
+        { include = "#types"; },
+        { include = "#description"; }
+			);
+		},
+    { name = 'meta.tag.yard.param';
+      match = '(?<=#\s)(@)(param)';
+    }
+	);
+	repository = {
+    array_type = {
+      name = 'keyword.other.directive.array.yard';
+			begin = 'Array(\<)';
+      end = '\>';
+      beginCaptures = { 1 = { name = 'punctuation.definition.parameters.yard'; }; };
+      endCaptures = { 0 = { name = 'punctuation.definition.parameters.yard'; }; };
+			patterns = (
+				{ begin = '(?=[A-Z])';
+          end = '(?=[,>])';
+          patterns = (
+            { name = 'keyword.other.directive.class.yard';
+              match = '\G[A-Z]\w*(?:::[A-Z]\w*)*';
+            },
+            { include = "$self"; }
+          );
+        }
+      );
+		};
+    name = {
+      name = 'entity.other.attribute-name.yard';
+			match = '(?<=\]|\s)\b([_a-zA-Z][_a-zA-Z0-9\-]*)\b(?=\[|\s)';
+		};
+    list_separator = {
+      name = 'punctuation.separator.parameters.yard';
+			match = ',\s*';
+		};
+    types = {
+      name = 'meta.array.types.yard';
+			begin = '\b(\[)';
+			end = '\]';
+			beginCaptures = {
+        1 = { name = 'entity.other.attribute-name.yard'; };
+      };
+			endCaptures = { 0 = { name = 'punctuation.definition.parameters.yard'; }; };
+			patterns = (
+				{ begin = '(?=[A-Z])';
+          end = '(?=[,\]])';
+          patterns = (
+            { name = 'keyword.other.directive.class.yard';
+              match = '\G[A-Z]\w*(?:::[A-Z]\w*)*';
+            },
+            { include = "#array_type"; },
+            { include = "$self"; }
+          );
+        }
+			);
+		};
+    description = {
+      match = '(?<=\s).+?(?=\n|$)';
+    };
+  };
+}
